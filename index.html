@@ -1,68 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Orchid city</title>
+    <link rel="stylesheet" href="styles.css" />
     <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        canvas {
-            background-color: rgb(45, 179, 4);
-        }
-        img {
-            display: none;
-        }
-        button {
-            box-shadow: none;
-            border: 2px solid black;
-            font-weight: 600;
-            background-color: transparent;
-            padding: 10px;
-            margin: 10px;
-        }
-        button:hover {
-            cursor: pointer;
-        }
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      canvas {
+        background-color: rgb(45, 179, 4);
+      }
+      img {
+        display: none;
+      }
+      button {
+        box-shadow: none;
+        border: 2px solid black;
+        font-weight: 600;
+        background-color: transparent;
+        padding: 10px;
+        margin: 10px;
+      }
+      button:hover {
+        cursor: pointer;
+      }
     </style>
-</head>
-<body onload="createMap()">
-    <img src="Bangunan_besar1.png" alt="img" id="Bangunan_besar1">
-    <img src="Bangunan_sedang1.png" alt="img" id="Bangunan_sedang1">
-    <img src="Bangunan_sedang2.png" alt="img" id="Bangunan_sedang2">
-    <img src="Bangunan_sedang3.png" alt="img" id="Bangunan_sedang3">
-    <img src="Bangunan_kecil1.png" alt="img" id="Bangunan_kecil1">
-    <img src="Bangunan_kecil2.png" alt="img" id="Bangunan_kecil2">
-    <img src="Bangunan_kecil3.png" alt="img" id="Bangunan_kecil3">
-    <img src="Banguanan_kecil4.png" alt="img" id="Bangunan_kecil4">
-    <img src="Bangunan_kecil5.png" alt="img" id="Bangunan_kecil5">
-    <img src="Bangunan_kecil6.png" alt="img" id="Bangunan_kecil6">
-    <img src="Bangunan_kecil7.png" alt="img" id="Bangunan_kecil7"> 
-    <img src="Bangunan_kecil8.png" alt="img" id="Bangunan_kecil8">
-    <img src="Bangunan_kecil9.png" alt="img" id="Bangunan_kecil9">
-    <img src="Bangunan_kecil10.png" alt="img" id="Bangunan_kecil10">
-    <img src="rumah1.jpg" alt="img" id="rumah1">
-    <img src="rumah2.jpg" alt="img" id="rumah2">
-    <img src="rumah3.jpg" alt="img" id="rumah3">
-    <img src="rumah4.jpg" alt="img" id="rumah4">
-    <img src="rumah5.jpg" alt="img" id="rumah5">
-    <img src="rumah6.jpg" alt="img" id="rumah6">
-    <img src="rumah7.png" alt="img" id="rumah7">
-    <img src="rumah8.png" alt="img" id="rumah8">
-    <img src="rumah9.jpg" alt="img" id="rumah9">
-    <img src="rumah10.jpg" alt="img" id="rumah10">
-    <img src="Mobil.png" alt="img" id="Mobil">
-    <img src="pohon.png" alt="img" id="pohon">
-    <img src="Taman.png" alt="img" id="Taman">
+  </head>
+  <body onload="createMap()">
+    <img src="Bangunan_besar1.png" alt="img" id="Bangunan_besar1" />
+    <img src="Bangunan_sedang1.png" alt="img" id="Bangunan_sedang1" />
+    <img src="Bangunan_sedang2.png" alt="img" id="Bangunan_sedang2" />
+    <img src="Bangunan_sedang3.png" alt="img" id="Bangunan_sedang3" />
+    <img src="Bangunan_kecil1.png" alt="img" id="Bangunan_kecil1" />
+    <img src="Bangunan_kecil2.png" alt="img" id="Bangunan_kecil2" />
+    <img src="Bangunan_kecil3.png" alt="img" id="Bangunan_kecil3" />
+    <img src="Banguanan_kecil4.png" alt="img" id="Bangunan_kecil4" />
+    <img src="Bangunan_kecil5.png" alt="img" id="Bangunan_kecil5" />
+    <img src="Bangunan_kecil6.png" alt="img" id="Bangunan_kecil6" />
+    <img src="Bangunan_kecil7.png" alt="img" id="Bangunan_kecil7" />
+    <img src="Bangunan_kecil8.png" alt="img" id="Bangunan_kecil8" />
+    <img src="Bangunan_kecil9.png" alt="img" id="Bangunan_kecil9" />
+    <img src="Bangunan_kecil10.png" alt="img" id="Bangunan_kecil10" />
+    <img src="rumah1.jpg" alt="img" id="rumah1" />
+    <img src="rumah2.jpg" alt="img" id="rumah2" />
+    <img src="rumah3.jpg" alt="img" id="rumah3" />
+    <img src="rumah4.jpg" alt="img" id="rumah4" />
+    <img src="rumah5.jpg" alt="img" id="rumah5" />
+    <img src="rumah6.jpg" alt="img" id="rumah6" />
+    <img src="rumah7.png" alt="img" id="rumah7" />
+    <img src="rumah8.png" alt="img" id="rumah8" />
+    <img src="rumah9.jpg" alt="img" id="rumah9" />
+    <img src="rumah10.jpg" alt="img" id="rumah10" />
+    <img src="Mobil.png" alt="img" id="Mobil" />
+    <img src="pohon.png" alt="img" id="pohon" />
+    <img src="Taman.png" alt="img" id="Taman" />
     <button onclick="createMap()">Redesign</button>
     <canvas id="thecanvas"></canvas>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
 
