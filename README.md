@@ -6,3 +6,6 @@ Nama anggota kelompok:
 3. M. Aditya Egi Dwinata (2201020141)
 4. Ardilla Rahmayani (2101020093)
 5. Betranz leenando (2201020079)
+
+
+file:///C:/Users/ASUS/AppData/Local/Temp/Rar$EXa26512.37895.rartemp/IKN_projects/index.html
